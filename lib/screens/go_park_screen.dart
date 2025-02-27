@@ -14,7 +14,6 @@ class GoParkingScreen extends StatelessWidget {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return Scaffold(
-      backgroundColor: ColorsManager.black,
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(

@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:smart_garage_final_project/cached/cache_helper.dart';
+import 'package:smart_garage_final_project/constants/colors_manager.dart';
 
 import 'package:smart_garage_final_project/screens/go_park_screen.dart';
+import 'package:smart_garage_final_project/screens/profile_screen.dart';
 
-void main() {
+void main() async{
   WidgetsFlutterBinding.ensureInitialized();
+  await CachedData.cacheInitialization();  //initialize cache
+
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(SmartGarage());
@@ -27,7 +32,8 @@ class SmartGarage extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Smart Garage',
-          home: GoParkingScreen(),
+          theme: ThemeData(scaffoldBackgroundColor: ColorsManager.black),
+          home: ProfileScreen(),
         );
       },
     );
