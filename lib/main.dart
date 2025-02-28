@@ -6,10 +6,11 @@ import 'package:smart_garage_final_project/constants/colors_manager.dart';
 
 import 'package:smart_garage_final_project/screens/go_park_screen.dart';
 import 'package:smart_garage_final_project/screens/profile_screen.dart';
+import 'package:smart_garage_final_project/screens/splash_screen.dart';
 
-void main() async{
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await CachedData.cacheInitialization();  //initialize cache
+  await CachedData.cacheInitialization(); //initialize cache
 
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
@@ -33,7 +34,7 @@ class SmartGarage extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Smart Garage',
           theme: ThemeData(scaffoldBackgroundColor: ColorsManager.black),
-          home: ProfileScreen(),
+          home: SplashScreen(),
         );
       },
     );

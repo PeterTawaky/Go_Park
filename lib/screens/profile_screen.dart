@@ -214,86 +214,92 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ),
           Container(
             alignment: Alignment.center,
-            margin: EdgeInsetsDirectional.symmetric(horizontal: 10.w),
+            margin: EdgeInsetsDirectional.symmetric(horizontal: 20.w),
             width: width,
             height: width * 0.5,
             decoration: BoxDecoration(
-              color: ColorsManager.darkBlue,
-              borderRadius: BorderRadius.circular(22),
+              color: ColorsManager.black,
+              borderRadius: BorderRadius.circular(32.r),
+              boxShadow: [
+                BoxShadow(
+                  // تغميق
+                  color: Color(0XFF23262A),
+                  offset: Offset(10, 10),
+                  blurRadius: 15,
+                  spreadRadius: 1,
+                ),
+                BoxShadow(
+                  //تفتيح
+                  color: Color(0XFF35393F),
+                  offset: Offset(-10, -10),
+                  blurRadius: 15,
+                  spreadRadius: 1,
+                ),
+              ],
             ),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              // mainAxisAlignment: MainAxisAlignment.spaceAround,
               // mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Timer',
-                      style: TextStyle(
-                        color: ColorsManager.grey,
-                        fontSize: 20.sp,
+                Padding(
+                  padding: EdgeInsetsDirectional.only(top: 35.h, start: 20.w),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Timer',
+                        style: TextStyle(
+                          color: ColorsManager.grey,
+                          fontSize: 18.sp,
+                        ),
                       ),
-                    ),
-                    Text(
-                      '$timeInHours:$timeInMinutes:$timeInSecond',
-                      style: TextStyle(
-                        color: ColorsManager.white,
-                        fontSize: 34.sp,
+                      Text(
+                        '$timeInHours:$timeInMinutes:$timeInSecond',
+                        style: TextStyle(
+                          color: ColorsManager.white,
+                          fontSize: 34.sp,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
+                Spacer(),
                 Container(
+                  margin: EdgeInsetsDirectional.only(end: 10.w),
                   alignment: Alignment.center,
                   width: 150.w,
                   height: 150.h,
                   decoration: BoxDecoration(
-                    color: ColorsManager.black,
-                    borderRadius: BorderRadius.circular(18),
+                    color: ColorsManager.darkBlue,
+                    borderRadius: BorderRadius.circular(30),
                   ),
                   child: Center(
                     child: CircularPercentIndicator(
-                      radius: 60.0,
-                      lineWidth: 15.0,
+                      radius: 70.0.r,
+                      lineWidth: 18.0.r,
                       percent: timeInMinutes / 60,
-                      // center: Text(
-                      //   _calculateBmi().toStringAsFixed(2),
-                      //   style: TextStyle(
-                      //     fontWeight: FontWeight.bold,
-                      //     fontSize: 60,
-                      //     color: AppColors.blue,
-                      //   ),
-                      // ),
+                      center: Container(
+                        width: 80.w,
+                        height: 80.w,
+                        decoration: BoxDecoration(
+                          color: ColorsManager.black,
+                          borderRadius: BorderRadius.circular(100),
+                        ),
+                        child: Icon(
+                          Icons.bolt,
+                          color: ColorsManager.white,
+                          size: 42,
+                        ),
+                      ),
                       circularStrokeCap: CircularStrokeCap.round,
                       progressColor: Color(0XFF0BDCF7),
-                      backgroundColor: ColorsManager.darkBlue,
+                      backgroundColor: ColorsManager.blackBlue,
                     ),
                   ),
-                  // child: Text(
-                  //   '$timeInHours:$timeInMinutes:$timeInSecond',
-                  //   style: TextStyle(color: ColorsManager.white, fontSize: 64.sp),
-                  // ),
                 ),
               ],
             ),
           ),
-          // Container(
-          //   alignment: Alignment.center,
-          //   margin: EdgeInsetsDirectional.symmetric(horizontal: 20.w),
-          //   width: width,
-          //   height: 200.h,
-          //   decoration: BoxDecoration(
-          //     color: ColorsManager.sky,
-          //     borderRadius: BorderRadius.circular(20),
-          //   ),
-          //   child: Text(
-          //     '$timeInHours:$timeInMinutes:$timeInSecond',
-          //     style: TextStyle(color: ColorsManager.white, fontSize: 64.sp),
-          //   ),
-          // ),
-          // SizedBox(height: 20.h),
-          // ElevatedButton(onPressed: _startCount, child: Text('Start Counting')),
         ],
       ),
     );

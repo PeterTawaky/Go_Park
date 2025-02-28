@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:slide_to_act/slide_to_act.dart';
 import 'package:smart_garage_final_project/constants/colors_manager.dart';
 import 'package:smart_garage_final_project/constants/fonts_manager.dart';
+import 'package:smart_garage_final_project/screens/profile_screen.dart';
 
 class SlideActionButton extends StatelessWidget {
   const SlideActionButton({super.key});
@@ -24,11 +25,13 @@ class SlideActionButton extends StatelessWidget {
           innerColor: ColorsManager.grey,
           sliderButtonIcon: Icon(Icons.bolt, color: ColorsManager.white),
           onSubmit: () {
-            Future.delayed(
-              Duration(seconds: 1),
-              () => key.currentState!.reset(),
+            //TODO: navigate to the next screen with go router
+            //TODO: add connection to the firebase
+            Future.delayed(Duration(seconds: 1), () {});
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (context) => ProfileScreen()),
             );
-
             return null;
           },
           borderRadius: 22,
