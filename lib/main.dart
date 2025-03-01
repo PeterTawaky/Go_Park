@@ -34,7 +34,7 @@ class SmartGarage extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Smart Garage',
           theme: ThemeData(scaffoldBackgroundColor: ColorsManager.black),
-          home: SplashScreen(),
+          home: ProfileScreen(),
         );
       },
     );

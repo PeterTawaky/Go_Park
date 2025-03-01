@@ -7,6 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:smart_garage_final_project/cached/cache_helper.dart';
+import 'package:smart_garage_final_project/components/timer_display_component.dart';
 import 'package:smart_garage_final_project/constants/app_assets.dart';
 import 'package:smart_garage_final_project/constants/colors_manager.dart';
 import 'package:smart_garage_final_project/constants/keys_manager.dart';
@@ -20,6 +21,8 @@ class ProfileScreen extends StatefulWidget {
 
 class _ProfileScreenState extends State<ProfileScreen> {
   File? imgFile;
+  double _price = 0;
+
   late int timeInSecond;
   late int timeInMinutes;
   late int timeInHours;
@@ -70,6 +73,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
           timeInHours++;
           CachedData.setData(key: KeysManager.timeInHours, value: timeInHours);
         }
+        _price =
+            (timeInSecond * 0.0277777777777778) +
+            (timeInMinutes * 1.66666666666667) +
+            (timeInHours * 100);
         CachedData.setData(
           key: KeysManager.timeInSeconds,
           value: timeInSecond++,
@@ -108,7 +115,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: EdgeInsets.symmetric(vertical: 8.0.h),
+                      padding: EdgeInsets.symmetric(vertical: 4.0.h),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -116,7 +123,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Hi, Tawaky!',
                             style: TextStyle(
                               color: ColorsManager.white,
-                              fontSize: 30,
+                              fontSize: 28.sp,
                             ),
                           ),
                           // Spacer(),
@@ -124,7 +131,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Where will we go today?',
                             style: TextStyle(
                               color: ColorsManager.grey,
-                              fontSize: 16.sp,
+                              fontSize: 14.sp,
                             ),
                           ),
                         ],
@@ -212,92 +219,123 @@ class _ProfileScreenState extends State<ProfileScreen> {
               ],
             ),
           ),
-          Container(
-            alignment: Alignment.center,
-            margin: EdgeInsetsDirectional.symmetric(horizontal: 20.w),
-            width: width,
-            height: width * 0.5,
-            decoration: BoxDecoration(
-              color: ColorsManager.black,
-              borderRadius: BorderRadius.circular(32.r),
-              boxShadow: [
-                BoxShadow(
-                  // تغميق
-                  color: Color(0XFF23262A),
-                  offset: Offset(10, 10),
-                  blurRadius: 15,
-                  spreadRadius: 1,
-                ),
-                BoxShadow(
-                  //تفتيح
-                  color: Color(0XFF35393F),
-                  offset: Offset(-10, -10),
-                  blurRadius: 15,
-                  spreadRadius: 1,
-                ),
-              ],
-            ),
+          TimerDisplayComponent(
+            timeInHours: timeInHours,
+            timeInMinutes: timeInMinutes,
+            timeInSecond: timeInSecond,
+          ),
+          SizedBox(height: 20.h),
+          SizedBox(
+            height: height * 0.3,
             child: Row(
-              // mainAxisAlignment: MainAxisAlignment.spaceAround,
-              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Padding(
-                  padding: EdgeInsetsDirectional.only(top: 35.h, start: 20.w),
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    margin: EdgeInsetsDirectional.only(start: 20.w),
+                    decoration: BoxDecoration(
+                      color: ColorsManager.yellow,
+                      borderRadius: BorderRadius.circular(32.r),
+                    ),
+                  ),
+                ),
+                SizedBox(width: 5.w),
+                Expanded(
                   child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        'Timer',
-                        style: TextStyle(
-                          color: ColorsManager.grey,
-                          fontSize: 18.sp,
+                      Expanded(
+                        child: Container(
+                          margin: EdgeInsetsDirectional.only(end: 20.w),
+
+                          alignment: Alignment.center,
+
+                          decoration: BoxDecoration(
+                            color: ColorsManager.lightBlack,
+                            borderRadius: BorderRadius.circular(32.r),
+                          ),
+                          child: Row(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                  right: 5,
+                                  bottom: 5,
+                                  top: 5,
+                                ),
+                                child: Container(
+                                  height: double.infinity,
+                                  width: width * 1.1 / 7,
+                                  decoration: BoxDecoration(
+                                    color: ColorsManager.white,
+                                    borderRadius: BorderRadius.circular(32.r),
+                                  ),
+                                  child: Icon(Icons.attach_money, size: 35),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: EdgeInsetsDirectional.only(
+                                  top: 5.h,
+                                  bottom: 15.h,
+                                  start: 10.w,
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceEvenly,
+                                  children: [
+                                    Text(
+                                      'fees',
+                                      style: TextStyle(
+                                        color: ColorsManager.grey,
+                                        fontSize: 18.sp,
+                                      ),
+                                    ),
+                                    Text(
+                                      '${_price.floor()}',
+                                      style: TextStyle(
+                                        color: ColorsManager.white,
+                                        fontSize: 32.sp,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
-                      Text(
-                        '$timeInHours:$timeInMinutes:$timeInSecond',
-                        style: TextStyle(
-                          color: ColorsManager.white,
-                          fontSize: 34.sp,
+                      SizedBox(height: 5.h),
+                      Expanded(
+                        child: Container(
+                          margin: EdgeInsetsDirectional.only(end: 20.w),
+
+                          alignment: Alignment.center,
+
+                          decoration: BoxDecoration(
+                            color: ColorsManager.white,
+                            borderRadius: BorderRadius.circular(32.r),
+                          ),
                         ),
                       ),
                     ],
                   ),
                 ),
-                Spacer(),
-                Container(
-                  margin: EdgeInsetsDirectional.only(end: 10.w),
-                  alignment: Alignment.center,
-                  width: 150.w,
-                  height: 150.h,
-                  decoration: BoxDecoration(
-                    color: ColorsManager.darkBlue,
-                    borderRadius: BorderRadius.circular(30),
-                  ),
-                  child: Center(
-                    child: CircularPercentIndicator(
-                      radius: 70.0.r,
-                      lineWidth: 18.0.r,
-                      percent: timeInMinutes / 60,
-                      center: Container(
-                        width: 80.w,
-                        height: 80.w,
-                        decoration: BoxDecoration(
-                          color: ColorsManager.black,
-                          borderRadius: BorderRadius.circular(100),
-                        ),
-                        child: Icon(
-                          Icons.bolt,
-                          color: ColorsManager.white,
-                          size: 42,
-                        ),
-                      ),
-                      circularStrokeCap: CircularStrokeCap.round,
-                      progressColor: Color(0XFF0BDCF7),
-                      backgroundColor: ColorsManager.blackBlue,
-                    ),
-                  ),
-                ),
               ],
+            ),
+          ),
+          // Text(
+          //   'Total Price: ${_price.floor()} EGP',
+          //   style: TextStyle(color: ColorsManager.white, fontSize: 18.sp),
+          // ),
+          Spacer(),
+          Container(
+            width: width * 0.35,
+            height: 5,
+            margin: EdgeInsets.only(bottom: 10),
+            decoration: BoxDecoration(
+              color: ColorsManager.grey,
+              borderRadius: BorderRadius.circular(10),
             ),
           ),
         ],

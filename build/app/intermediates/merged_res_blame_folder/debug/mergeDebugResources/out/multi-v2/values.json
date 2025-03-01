@@ -21,6 +21,25 @@
                     }
                 },
                 {
+                    "source": "T:\\HTI\\graduation_project\\Go_Park\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "1488,1492",
+                        "startColumns": "4,4",
+                        "startOffsets": "93582,93763",
+                        "endLines": "1491,1494",
+                        "endColumns": "12,12",
+                        "endOffsets": "93758,93927"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Fox\\.gradle\\caches\\8.10.2\\transforms\\30b0283ed69cc5a036226586199afb07\\transformed\\jetified-appcompat-resources-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,29,36,47,74",
@@ -255,25 +274,6 @@
                         "startOffsets": "18764,20219",
                         "endColumns": "41,59",
                         "endOffsets": "18801,20274"
-                    }
-                },
-                {
-                    "source": "T:\\HTI\\graduation_project\\go_park\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "1488,1492",
-                        "startColumns": "4,4",
-                        "startOffsets": "93582,93763",
-                        "endLines": "1491,1494",
-                        "endColumns": "12,12",
-                        "endOffsets": "93758,93927"
                     }
                 }
             ]

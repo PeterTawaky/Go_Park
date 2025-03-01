@@ -1,9 +1,9 @@
-#Fri Feb 28 02:21:12 EET 2025
-base.0=T\:\\HTI\\graduation_project\\go_park\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=T\:\\HTI\\graduation_project\\go_park\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
-base.2=T\:\\HTI\\graduation_project\\go_park\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.3=T\:\\HTI\\graduation_project\\go_park\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.4=T\:\\HTI\\graduation_project\\go_park\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+#Sat Mar 01 08:19:33 EET 2025
+base.0=T\:\\HTI\\graduation_project\\Go_Park\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=T\:\\HTI\\graduation_project\\Go_Park\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=T\:\\HTI\\graduation_project\\Go_Park\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=T\:\\HTI\\graduation_project\\Go_Park\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.4=T\:\\HTI\\graduation_project\\Go_Park\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex
