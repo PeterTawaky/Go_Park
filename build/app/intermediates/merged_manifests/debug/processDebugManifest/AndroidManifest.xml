@@ -13,8 +13,9 @@
          to allow setting breakpoints, to provide hot reload, etc.
     -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
     <!--
-     Required to query activities that can process text, see:
+ Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility and
          https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
 
@@ -26,7 +27,8 @@
 
             <data android:mimeType="text/plain" />
         </intent>
-    </queries>
+    </queries> <!-- suppress DeprecatedClassUsageInspection -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 
     <permission
         android:name="tawakycreation.smart_garage_final_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"

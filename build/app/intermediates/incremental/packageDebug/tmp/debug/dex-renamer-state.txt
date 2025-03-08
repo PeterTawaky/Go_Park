@@ -1,4 +1,4 @@
-#Sat Mar 01 08:19:33 EET 2025
+#Sat Mar 08 06:45:08 EET 2025
 base.0=T\:\\HTI\\graduation_project\\Go_Park\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=T\:\\HTI\\graduation_project\\Go_Park\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=T\:\\HTI\\graduation_project\\Go_Park\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "tawakycreation.smart_garage_final_project.app-mergeDebugResources-39:/values-night-v8/values-night-v8.xml",
+            "outputFile": "tawakycreation.smart_garage_final_project.app-mergeDebugResources-40:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "T:\\HTI\\graduation_project\\Go_Park\\android\\app\\src\\main\\res\\values-night\\styles.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Fox\\.gradle\\caches\\8.10.2\\transforms\\3a4dcd3e8c92efa77cfa193b658940d9\\transformed\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Fox\\.gradle\\caches\\8.10.2\\transforms\\21f508358b7ef6793f647ddb068091fd\\transformed\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

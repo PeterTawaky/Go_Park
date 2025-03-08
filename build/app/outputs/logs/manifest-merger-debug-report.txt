@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:2:5-34:19
+INJECTED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:3:5-35:19
 INJECTED from T:\HTI\graduation_project\Go_Park\android\app\src\debug\AndroidManifest.xml
 MERGED from [:image_picker_android] T:\HTI\graduation_project\Go_Park\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
 MERGED from [:image_picker_android] T:\HTI\graduation_project\Go_Park\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
@@ -23,16 +23,18 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Fo
 	android:name
 		INJECTED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:1:1-46:12
-MERGED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:1:1-46:12
+ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:1:1-47:12
 INJECTED from T:\HTI\graduation_project\Go_Park\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from T:\HTI\graduation_project\Go_Park\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from T:\HTI\graduation_project\Go_Park\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 MERGED from [:shared_preferences_android] T:\HTI\graduation_project\Go_Park\build\shared_preferences_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker_android] T:\HTI\graduation_project\Go_Park\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-34:12
+MERGED from [:local_auth_android] T:\HTI\graduation_project\Go_Park\build\local_auth_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_plugin_android_lifecycle] T:\HTI\graduation_project\Go_Park\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\bd1be39a4121b41df3cecdb1f1acb24d\transformed\biometric-1.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [androidx.preference:preference:1.2.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\0098a6e93522fecc805d8900172003dc\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\3a4dcd3e8c92efa77cfa193b658940d9\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\21f508358b7ef6793f647ddb068091fd\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\2e4c2e4e231b6a1dd462fb9cdc4ff977\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\55520e4df2220e27f13f0bbb7467d11a\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\Fox\.gradle\caches\8.10.2\transforms\5cf1d9716b9650d5a0a992711d623bf8\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
@@ -45,19 +47,19 @@ MERGED from [androidx.window:window-java:1.2.0] C:\Users\Fox\.gradle\caches\8.10
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\6d6ee565ab495ccfff8140c2f79bcdec\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\d6334635279cb43af07c2144a95c2be9\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\ddd5e7b38041965968ff0c456e5ef322\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e0eede8414d1ee0e5f236daeb1a2e59a\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\ebeb29d7113d60e59d5e0acf92f847f3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\a1682fe25d19efcf6ed57ec9bfdc01f5\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\1da3d52bf544e2149dd46ce2061a20cf\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e2e21678784b3eef6b33f576b1691a56\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e0eede8414d1ee0e5f236daeb1a2e59a\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\a1682fe25d19efcf6ed57ec9bfdc01f5\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\ebeb29d7113d60e59d5e0acf92f847f3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\1b91be3af319ede480d7185430690ee1\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e2e21678784b3eef6b33f576b1691a56\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\c092edbccc16347970ed4f22e8da111a\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\ebca0abd79b4e189ce4efe6f41f957a4\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\b3d51a44ab6b56289d4858158a1ad6dd\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\c7156a54e8f0502a1f8f57797d8b3e6e\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\6ec70d4eb0351866340efe37c2014fef\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\30b0283ed69cc5a036226586199afb07\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\294fa292f5b2d15ea9a4a7a32547c712\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\fd3810ce99ffe1cc26d54f0b91968d35\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\58a0920e123e93dd6aa702d27ab7530e\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\7ba2c056d15ac2bb85e5cc14a5abc112\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -92,18 +94,26 @@ MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\Fox\.gradle\cache
 		INJECTED from T:\HTI\graduation_project\Go_Park\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:1:11-69
-queries
-ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:40:5-45:15
-intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:41:9-44:18
-action#android.intent.action.PROCESS_TEXT
-ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:42:13-73
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:2:5-71
+MERGED from [:local_auth_android] T:\HTI\graduation_project\Go_Park\build\local_auth_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-72
+MERGED from [:local_auth_android] T:\HTI\graduation_project\Go_Park\build\local_auth_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\bd1be39a4121b41df3cecdb1f1acb24d\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\bd1be39a4121b41df3cecdb1f1acb24d\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
 	android:name
-		ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:42:21-70
+		ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:2:22-69
+queries
+ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:41:5-46:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:42:9-45:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:43:13-73
+	android:name
+		ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:43:21-70
 data
-ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:43:13-51
+ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:44:13-51
 	android:mimeType
-		ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:43:19-48
+		ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\main\AndroidManifest.xml:44:19-48
 uses-permission#android.permission.INTERNET
 ADDED from T:\HTI\graduation_project\Go_Park\android\app\src\debug\AndroidManifest.xml:6:5-66
 	android:name
@@ -116,12 +126,16 @@ MERGED from [:shared_preferences_android] T:\HTI\graduation_project\Go_Park\buil
 MERGED from [:shared_preferences_android] T:\HTI\graduation_project\Go_Park\build\shared_preferences_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:image_picker_android] T:\HTI\graduation_project\Go_Park\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
 MERGED from [:image_picker_android] T:\HTI\graduation_project\Go_Park\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
+MERGED from [:local_auth_android] T:\HTI\graduation_project\Go_Park\build\local_auth_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:local_auth_android] T:\HTI\graduation_project\Go_Park\build\local_auth_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] T:\HTI\graduation_project\Go_Park\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] T:\HTI\graduation_project\Go_Park\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\bd1be39a4121b41df3cecdb1f1acb24d\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\bd1be39a4121b41df3cecdb1f1acb24d\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.preference:preference:1.2.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\0098a6e93522fecc805d8900172003dc\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.preference:preference:1.2.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\0098a6e93522fecc805d8900172003dc\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\3a4dcd3e8c92efa77cfa193b658940d9\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\3a4dcd3e8c92efa77cfa193b658940d9\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\21f508358b7ef6793f647ddb068091fd\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\21f508358b7ef6793f647ddb068091fd\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\2e4c2e4e231b6a1dd462fb9cdc4ff977\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\2e4c2e4e231b6a1dd462fb9cdc4ff977\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\55520e4df2220e27f13f0bbb7467d11a\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
@@ -146,18 +160,18 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\tr
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\d6334635279cb43af07c2144a95c2be9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\ddd5e7b38041965968ff0c456e5ef322\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\ddd5e7b38041965968ff0c456e5ef322\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e0eede8414d1ee0e5f236daeb1a2e59a\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e0eede8414d1ee0e5f236daeb1a2e59a\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\ebeb29d7113d60e59d5e0acf92f847f3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\ebeb29d7113d60e59d5e0acf92f847f3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\a1682fe25d19efcf6ed57ec9bfdc01f5\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\a1682fe25d19efcf6ed57ec9bfdc01f5\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\1da3d52bf544e2149dd46ce2061a20cf\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\1da3d52bf544e2149dd46ce2061a20cf\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e2e21678784b3eef6b33f576b1691a56\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e2e21678784b3eef6b33f576b1691a56\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e0eede8414d1ee0e5f236daeb1a2e59a\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e0eede8414d1ee0e5f236daeb1a2e59a\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\a1682fe25d19efcf6ed57ec9bfdc01f5\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\a1682fe25d19efcf6ed57ec9bfdc01f5\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\ebeb29d7113d60e59d5e0acf92f847f3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\ebeb29d7113d60e59d5e0acf92f847f3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\1b91be3af319ede480d7185430690ee1\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\1b91be3af319ede480d7185430690ee1\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e2e21678784b3eef6b33f576b1691a56\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e2e21678784b3eef6b33f576b1691a56\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\c092edbccc16347970ed4f22e8da111a\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\c092edbccc16347970ed4f22e8da111a\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
@@ -170,8 +184,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\F
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\c7156a54e8f0502a1f8f57797d8b3e6e\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\6ec70d4eb0351866340efe37c2014fef\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Fox\.gradle\caches\8.10.2\transforms\6ec70d4eb0351866340efe37c2014fef\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\30b0283ed69cc5a036226586199afb07\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\30b0283ed69cc5a036226586199afb07\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\294fa292f5b2d15ea9a4a7a32547c712\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\294fa292f5b2d15ea9a4a7a32547c712\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\fd3810ce99ffe1cc26d54f0b91968d35\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\fd3810ce99ffe1cc26d54f0b91968d35\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\58a0920e123e93dd6aa702d27ab7530e\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
@@ -266,6 +280,10 @@ ADDED from [:image_picker_android] T:\HTI\graduation_project\Go_Park\build\image
 		ADDED from [:image_picker_android] T:\HTI\graduation_project\Go_Park\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
 	android:name
 		ADDED from [:image_picker_android] T:\HTI\graduation_project\Go_Park\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\bd1be39a4121b41df3cecdb1f1acb24d\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\bd1be39a4121b41df3cecdb1f1acb24d\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.2.0] C:\Users\Fox\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
 	android:required
