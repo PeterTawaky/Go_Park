@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "tawakycreation.smart_garage_final_project.app-mergeDebugResources-40:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.smart_garage_final_project.app-mergeDebugResources-48:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Fox\\.gradle\\caches\\8.10.2\\transforms\\21f508358b7ef6793f647ddb068091fd\\transformed\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\Fox\\.gradle\\caches\\8.10.2\\transforms\\6750aa4ddc2d3050797f2ef25eb345df\\transformed\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

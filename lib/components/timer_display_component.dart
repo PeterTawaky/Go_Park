@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
-import 'package:smart_garage_final_project/constants/colors_manager.dart';
+import 'package:smart_garage_final_project/core/utils/theme/colors_manager.dart';
 
 class TimerDisplayComponent extends StatelessWidget {
   const TimerDisplayComponent({

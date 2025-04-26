@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "tawakycreation.smart_garage_final_project",
+  "applicationId": "com.example.smart_garage_final_project",
   "variantName": "debug",
   "elements": []
 }

@@ -8,9 +8,9 @@ import 'package:image_picker/image_picker.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:smart_garage_final_project/cached/cache_helper.dart';
 import 'package:smart_garage_final_project/components/timer_display_component.dart';
-import 'package:smart_garage_final_project/constants/app_assets.dart';
-import 'package:smart_garage_final_project/constants/colors_manager.dart';
-import 'package:smart_garage_final_project/constants/keys_manager.dart';
+import 'package:smart_garage_final_project/core/utils/app_assets.dart';
+import 'package:smart_garage_final_project/core/utils/theme/colors_manager.dart';
+import 'package:smart_garage_final_project/core/utils/keys_manager.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});

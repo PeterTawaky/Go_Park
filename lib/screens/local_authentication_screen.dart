@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
 import 'package:local_auth/local_auth.dart';
-import 'package:smart_garage_final_project/constants/colors_manager.dart';
-import 'package:smart_garage_final_project/constants/fonts_manager.dart';
+import 'package:smart_garage_final_project/core/routes/app_routes.dart';
+import 'package:smart_garage_final_project/core/utils/theme/colors_manager.dart';
+import 'package:smart_garage_final_project/core/utils/theme/fonts_manager.dart';
+import 'package:smart_garage_final_project/firebase/firebase_auth_consumer.dart';
 import 'package:smart_garage_final_project/screens/go_park_screen.dart';
 
 class LocalAuthenticationScreen extends StatefulWidget {
@@ -44,10 +47,11 @@ class _LocalAuthenticationScreenState extends State<LocalAuthenticationScreen> {
   _ensureUserValidity() async {
     final bool? userIsValid = await _activeFingerPrintAuth();
     if (userIsValid != null && userIsValid) {
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => GoParkingScreen()),
-      );
+      if (FirebaseAuthConsumer.isUserAuthorized()) {
+        context.pushReplacementNamed(AppRoutes.goParkScreen);
+      } else {
+        context.pushReplacementNamed(AppRoutes.loginScreen);
+      }
     }
   }
 

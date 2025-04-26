@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:lottie/lottie.dart';
-import 'package:smart_garage_final_project/constants/colors_manager.dart';
-import 'package:smart_garage_final_project/screens/go_park_screen.dart';
+import 'package:smart_garage_final_project/core/routes/app_routes.dart';
+import 'package:smart_garage_final_project/core/utils/theme/colors_manager.dart';
+import 'package:smart_garage_final_project/login_screen.dart';
 import 'package:smart_garage_final_project/screens/local_authentication_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -16,10 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Future.delayed(
       Duration(seconds: 5),
-      () => Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (context) => LocalAuthenticationScreen()),
-      ),
+      () => context.pushReplacementNamed(AppRoutes.localAuthenticationScreen),
     );
     super.initState();
   }

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="gcm_defaultSenderId" translatable="false">679017665841</string>
+    <string name="google_api_key" translatable="false">AIzaSyDi6hsnXvXBsigd8OX0LrpxG83iNeaM7bs</string>
+    <string name="google_app_id" translatable="false">1:679017665841:android:b05ef44db85e1ad9b44c10</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDi6hsnXvXBsigd8OX0LrpxG83iNeaM7bs</string>
+    <string name="google_storage_bucket" translatable="false">go-park-df349.firebasestorage.app</string>
+    <string name="project_id" translatable="false">go-park-df349</string>
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
         
         <item name="android:windowBackground">@drawable/launch_background</item>
